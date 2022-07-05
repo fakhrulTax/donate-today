@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    font-size: 75px;
+    line-height: 95px;
+    margin-top: 0;
+    
+}
+/**** Header ****/
+header{
+    background-image: url(../images/donation13.jpg);
+    background-size: cover;
+}
+.header{
+    max-width: 826px;
+    margin: 0 auto;
+}
