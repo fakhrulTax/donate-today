@@ -53,16 +53,29 @@ p, input{
 input:focus-visible{
     outline: none;
 }
+.half-size{
+    width: 50%;
+    padding: 15px;
+    margin-right: 15px;
+}
 /**** Header ****/
 
 header{
-    background-image: url(../images/donation13.jpg);
+    background-image: url(../images/donation4.jpg);
     background-size: cover;
     height: 100vh;
     align-items: center;
 }
+header::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(18,18,18,0.5);
+    position: absolute;
+}
 .header{
     max-width: 826px;
+    z-index: 1;
 }
 
 header h1{
@@ -131,11 +144,6 @@ header p{
 .blog-child{
     margin-bottom: 20px;
 }
-.blog-child-left, .blog-child-right{
-    width: 50%;
-    padding: 15px;
-    margin-left: 15px;
-}
 .blog-child img{
     width: 100%;
 }
@@ -167,4 +175,24 @@ footer h3{
 }
 footer p{
     color: #D9DBE1;
+}
+.gallery-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-child{
+    width: 300px;
+}
+.gallery-child img{
+    width: 100%;
+}
+
+/** Volunteer **/
+.volunteer{
+    background-image: url(../images/donation10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.volunteer-image img{
+    width: 100%;
 }
