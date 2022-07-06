@@ -157,3 +157,14 @@ header p{
     padding: 12px;
     border-radius: 0;
 }
+/** Footer **/
+footer{
+    background-color: #0B0D17;
+}
+footer h3{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+}
+footer p{
+    color: #D9DBE1;
+}
