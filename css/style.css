@@ -139,3 +139,21 @@ header p{
 .blog-child img{
     width: 100%;
 }
+/** Subscription ***/
+.subscription-form{
+    background-color: #FFF4D6;
+    padding: 60px 0;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+}
+.subscription-form input{
+    padding: 10px;
+    background-color: #D9D9D9;
+    border: 0px;
+}
+.subscription-form .btn{
+    margin-left: -4px;
+    padding: 12px;
+    border-radius: 0;
+}
