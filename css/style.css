@@ -11,19 +11,47 @@ h1{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
 }
-p{
+h2{
+    font-size: 45px;
+    line-height: 65px;
+    color: #121212;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h3{
+    font-size: 24px;
+    line-height: 40px;
+    color: #121212;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+p, input{
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 30px;
     margin-top: 0;
     font-family: 'Inter', sans-serif;
+    color: #707070
 }
 .text-center{
     text-align: center;
 }
+.text-left{
+    text-align: left;
+}
 .flex-container{
     display: flex;
     justify-content: center;
+}
+.wrapper{
+    max-width: 1080px;
+    box-sizing: border-box;
+    padding:50px 0;
+}
+input:focus-visible{
+    outline: none;
 }
 /**** Header ****/
 
@@ -49,4 +77,54 @@ header p{
     background-color: #FF5959;
     padding: 15px 30px;
     border-radius: 5px;
+    border: none; 
+    font-size: 20px;
 }
+
+/**** Donate Today ****/
+.amount input{
+    display: inline-block;
+    background-color: #FAFAFA;
+    color: #707070;
+    border: none;
+    padding: 40px 20px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid #FAFAFA;
+}
+.amount input:hover, .amount .active{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    transition: 0.5s;   
+}
+#other-amount{
+    width: 100%;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #DADADA;
+}
+#other-amount:focus-visible, #other-amount:hover{
+    border-bottom: 1px solid #FF5959;
+    transition: 0.5s;
+}
+/**** Donate Plan ****/
+.dontate-plan-child{
+    width: 33%;
+    padding: 15px;
+    margin-left: 20px;
+    
+}
+.bg-1{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.bg-2{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.bg-3{
+    background-color: rgba(255, 244, 214, 1);
+}
+
